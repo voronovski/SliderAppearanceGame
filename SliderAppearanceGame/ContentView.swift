@@ -22,6 +22,7 @@ struct ContentView: View {
                         .blue
                         .opacity(Double(100 - abs(currentValue - targetValue))/100)
                 )
+            
             Button("Check") {
                 score = computeScore()
                 showingAlert = true
