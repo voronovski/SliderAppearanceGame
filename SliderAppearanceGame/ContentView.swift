@@ -16,12 +16,9 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text("Move slider closer to: \(targetValue.formatted())")
-            Slider(value: $currentValue, in: 0...100, step: 1)
-                .accentColor(
-                    Color
-                        .blue
-                        .opacity(Double(100 - abs(currentValue - targetValue))/100)
-                )
+            CustomSlider(
+                targetValue: $targetValue,
+                value: $currentValue)
             
             Button("Check") {
                 score = computeScore()
