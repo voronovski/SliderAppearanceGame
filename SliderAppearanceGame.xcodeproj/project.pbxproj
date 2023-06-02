@@ -11,7 +11,7 @@
 		FABD2E0A2A26DAB000DA3144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD2E092A26DAB000DA3144 /* ContentView.swift */; };
 		FABD2E0C2A26DAB100DA3144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD2E0B2A26DAB100DA3144 /* Assets.xcassets */; };
 		FABD2E0F2A26DAB100DA3144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD2E0E2A26DAB100DA3144 /* Preview Assets.xcassets */; };
-		FABD2E162A297ED600DA3144 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD2E152A297ED500DA3144 /* CustomSlider.swift */; };
+		FABD2E162A297ED600DA3144 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD2E152A297ED500DA3144 /* CustomSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		FABD2E092A26DAB000DA3144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FABD2E0B2A26DAB100DA3144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABD2E0E2A26DAB100DA3144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FABD2E152A297ED500DA3144 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		FABD2E152A297ED500DA3144 /* CustomSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				FABD2E072A26DAB000DA3144 /* SliderAppearanceGameApp.swift */,
 				FABD2E092A26DAB000DA3144 /* ContentView.swift */,
-				FABD2E152A297ED500DA3144 /* CustomSlider.swift */,
+				FABD2E152A297ED500DA3144 /* CustomSliderView.swift */,
 				FABD2E0B2A26DAB100DA3144 /* Assets.xcassets */,
 				FABD2E0D2A26DAB100DA3144 /* Preview Content */,
 			);
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABD2E0A2A26DAB000DA3144 /* ContentView.swift in Sources */,
-				FABD2E162A297ED600DA3144 /* CustomSlider.swift in Sources */,
+				FABD2E162A297ED600DA3144 /* CustomSliderView.swift in Sources */,
 				FABD2E082A26DAB000DA3144 /* SliderAppearanceGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
